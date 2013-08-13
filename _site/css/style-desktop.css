@@ -1,0 +1,390 @@
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body
+	{
+		font-size: 14pt;
+	}
+
+	h2
+	{
+		letter-spacing: 1px;
+	}
+
+	.button
+	{
+		margin-top: 2em;
+		padding: 1.4em 5em 1.3em 5em;
+	}
+
+		.button-alt
+		{
+			font-size: 1.1em;
+		}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	#header-wrapper
+	{
+		padding: 3em 0 0 0;
+	}
+
+		.homepage #header-wrapper
+		{
+			padding: 12em 0 2em 0;
+		}
+
+	.wrapper
+	{
+		padding: 6em 0 6em 0;
+	}
+	
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		position: relative;
+		padding: 0 0 3em 0;
+	}
+
+		.homepage #header
+		{
+			position: static;
+			padding: 0 0 3em 0;
+		}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		letter-spacing: 3px;
+	}
+
+		.homepage #logo
+		{
+			text-align: center;
+		}
+
+		.homepage #logo .pennant
+		{
+			display: block;
+			margin: 0 0 2em 0;
+		}
+	
+			#logo .pennant span
+			{
+				width: 80px;
+				height: 80px;
+				line-height: 80px;
+				border-radius: 40px;
+				font-size: 1.4em;
+			}
+
+			.homepage #logo .pennant span
+			{
+				width: 160px;
+				height: 160px;
+				line-height: 170px;
+				border-radius: 80px;
+				font-size: 3.2em;
+			}
+		
+		#logo h1
+		{
+			padding: 0.8em 1.3em 0.6em 0.50em;
+			font-size: 2em;
+		}
+
+		.homepage #logo h1
+		{
+			padding: 0.6em 1.3em;
+			font-size: 2.7em;
+		}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+	#nav
+	{
+		position: absolute;
+		right: 0;
+		top: 1.25em;
+	}
+
+		.homepage #nav
+		{
+			position: absolute;
+			display: block;
+			top: 0;
+			left: 0;
+			width: 100%;
+			text-align: center;
+		}
+
+		#nav > ul > li > ul
+		{
+			display: none;
+		}
+
+		#nav > ul
+		{
+			display: inline-block;
+		}
+
+		#nav > ul > li
+		{
+			display: block;
+			float: left;
+			text-align: center;
+		}
+		
+			#nav > ul > li > a,
+			#nav > ul > li > span
+			{
+				display: block;
+				padding: 0.70em 1.5em;
+				text-decoration: none;
+				font-size: 1em;
+				font-weight: 400;
+				outline: 0;
+				color: #595959;
+			}
+
+			.homepage #nav > ul > li > a,
+			.homepage #nav > ul > li > span
+			{
+				padding: 1.1em 1.5em !important;
+				font-size: 1em;
+			}
+			
+			#nav > ul > li:hover > a,
+			#nav > ul > li.active > a,
+			#nav > ul > li.active > span
+			{
+			}
+			
+			#nav .current_page_item > a
+			{
+				background: #3f3f3f;
+				border-radius: 8px;
+				color: #FFF;
+			}
+
+			.homepage #nav .current_page_item > a
+			{
+				background: #3f3f3f;
+				border-radius: 0px 0px 5px 5px;
+				color: #FFF;
+			}
+
+	.dropotron-level-0
+	{
+		font-size: 0.8em;
+		margin-top: 1em;
+	}
+
+		.dropotron-level-0:before
+		{
+			content: '';
+			display: block;
+			border-bottom: solid 1em #3f3f3f;
+			border-left: solid 1em transparent;
+			border-right: solid 1em transparent;
+			position: absolute;
+			top: -0.85em;
+			left: 50%;
+			margin-left: -1em;
+		}
+
+	.dropotron
+	{
+		background: #3f3f3f;
+		border-radius: 8px;
+		padding: 1.25em 0 1.1em 0;
+		min-width: 14em;
+		text-align: left;
+	}
+	
+		.dropotron a,
+		.dropotron span
+		{
+			display: block;
+			padding: 0.75em 1.5em 0.75em 1.5em;
+			color: #ccc;
+			text-decoration: none;
+			border-top: solid 1px #555;
+			-moz-transition: color 0.25s ease-in-out;
+			-webkit-transition: color 0.25s ease-in-out;
+			-o-transition: color 0.25s ease-in-out;
+			-ms-transition: color 0.25s ease-in-out;
+			transition: color 0.25s ease-in-out;
+		}
+		
+		.dropotron li:hover > a,
+		.dropotron li:hover > span
+		{
+			color: #fff;
+		}
+
+		.dropotron li:first-child > a,
+		.dropotron li:first-child > span
+		{
+			border-top: 0;
+		}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		padding: 0 7em 0 7em;
+	}
+	
+		#banner h2
+		{
+			margin-bottom: 1.5em;
+			font-size: 1.5em
+		}
+		
+		#banner p
+		{
+			font-size: 1.1em;
+			margin: 0;
+		}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+	}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+	}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content
+	{
+	}
+	
+		#content header
+		{
+		}
+		
+		.no-sidebar #content header
+		{
+			text-align: center;
+		}
+
+		#content header h2
+		{
+			font-size: 1.6em;
+		}
+		
+		#content header .byline
+		{
+			font-size: 1.20em !important;
+		}
+
+		#content h3
+		{
+			margin: 3em 0em 1.5em 0em;
+			font-size: 1.4em;
+		}
+		
+		#content .image-full
+		{
+			margin-bottom: 2em;
+		}
+
+/*********************************************************************************/
+/* Portfolio                                                                     */
+/*********************************************************************************/
+
+	#portfolio-preview
+	{
+	}
+
+		#portfolio-preview .content
+		{
+			padding: 0em 4em 3em 4em;
+		}
+
+		#portfolio-preview header
+		{
+			margin: 0 0 1.5em 0;
+		}
+
+		#portfolio-preview header h2
+		{
+			display: block;
+			font-size: 1.4em;
+			text-align: left;
+		}
+		
+		#portfolio-preview header .byline
+		{
+			position: absolute;
+			top: 0;
+			right: 0;
+			font-size: 1.3em;
+			padding: 0;
+			margin: 0;
+		}
+
+	.poptrox-popup
+	{
+		padding: 0.75em;
+		background: #fff;
+		border-radius: 8px 0px 8px 8px;
+	}
+	
+		.poptrox-popup .closer
+		{
+			position: absolute;
+			right: -3em;
+			top: 0;
+			background: #222;
+			color: #fff;
+			width: 3em;
+			height: 3em;
+			line-height: 3em;
+			text-align: center;
+			border-radius: 0 8px 8px 0;
+		}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright 
+	{
+		font-size: 0.8em;
+		padding: 5em 0em;
+	}
+
+/*********************************************************************************/
+/* Highlights                                                                    */
+/*********************************************************************************/
+
+	#highlights
+	{
+	}

@@ -16,3 +16,9 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+# Jekyll compiled site files
+_site
+
+# NPM modules
+node_modules

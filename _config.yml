@@ -31,3 +31,11 @@ rdiscount:
 paginate: 5
 paginate_path: "page/:num"
 category_dir: categories
+
+#
+# Prose.io configuration
+#
+prose:
+  rooturl: "_posts"
+  siteurl: "http://erickgirard.com"
+  media: "assets/img"

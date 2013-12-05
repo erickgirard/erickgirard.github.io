@@ -1,19 +1,5 @@
 ---
-layout: no-sidebar
+layout: default
 ---
 
-<!-- Wide Content Wrapper -->
-<div class="wrapper">
-  
-  <!-- Wide Content -->
-  <article id="content">
-    <header>
-      <h2>{{ page.title }}</h2>
-      <span class="byline">{{ page.date | date_to_string }}</span>
-    </header>
-    {{ content }}
-  </article>
-  <!-- /Wide Content -->
-  
-</div>
-<!-- /Wide Content Wrapper -->
+{% include article.html %}

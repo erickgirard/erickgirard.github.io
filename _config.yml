@@ -1,3 +1,33 @@
-name: Your New Jekyll Site
-markdown: redcarpet
+#
+# Blog Settings
+#
+author: Erick Girard
+title: Choses et autres
+url: http://erickgirard.com
+avatar_url: //erickgirard.com/img/avatar.png
+
+# Github repositories
+github_user: erickgirard
+github_repo_url: https://github.com/erickgirard/erickgirard.github.io/
+
+# Twitter
+twitter_user: erickgirard
+
+# LinkedIn
+linkedin_user: erickgirard
+
+# Google Analytics
+google_analytics_tracking_id: UA-10726698-3
+
+
+#
+# Jekyll Settings
+#
+markdown: rdiscount
 pygments: true
+permalink: /archive/:year/:month/:day/:title/
+rdiscount:
+  extensions: [smart]
+paginate: 5
+paginate_path: "page/:num"
+category_dir: categories

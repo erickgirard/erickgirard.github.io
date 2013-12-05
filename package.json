@@ -1,0 +1,22 @@
+{
+  "name": "erickgirard.github.io",
+  "version": "2.0.0",
+  "description": "Blog using jekyll",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erickgirard/erickgirard.github.io"
+  },
+  "author": "Erick Girard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erickgirard/erickgirard.github.io/issues"
+  },
+  "homepage": "https://erickgirard.com",
+  "dependencies": {
+    "grunt" : "0.4.1",
+    "grunt-contrib-cssmin" : "0.7.0"
+  }
+}

@@ -36,6 +36,5 @@ category_dir: categories
 # Prose.io configuration
 #
 prose:
-  rooturl: "_posts"
   siteurl: "http://erickgirard.com"
   media: "assets/img"

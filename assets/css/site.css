@@ -137,6 +137,16 @@ aside div.social i.fa-stack-1x {
 	font-size: 1.5em;
 }
 
+code {
+	background: #f8f8f8;
+	font: 1em Menlo, monospace;
+	padding: 2px 4px;
+	margin: 0 2px;
+	font-size: 12px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;	
+}
+
 @media screen and (max-width: 865px) {
 	aside, section {
 		float: none;

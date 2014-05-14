@@ -48,7 +48,3 @@ Project K arrive donc avec son lot de nouveautés :
 - Startup.cs le remplacement du Global.asax
 - Injection de dépendances
 - Entity Framework 7
-
-
-
-

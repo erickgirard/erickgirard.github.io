@@ -1,5 +1,8 @@
 ---
-published: true
+layout: post
+title:  "Project K le nouveau AspNet"
+date:   2014-10-02
+categories: aspnet-vnext
 ---
 
 ## Project K le nouveau AspNet

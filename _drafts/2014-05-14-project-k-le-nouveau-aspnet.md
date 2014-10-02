@@ -4,7 +4,7 @@ published: false
 
 ## Project K le nouveau AspNet
 
-Lundi à TechEd (Houston, Tx) nous a été présenté la prochaine version de AspNet (vnext). La nouvelle vision s'en vas vers un framework intensément allégé et j'ai l'intention d'écrire quelques billets sur la question.
+Le 18 mai dernier à TechEd (Houston, Tx), nous a été présenté la prochaine version de AspNet (vnext). La nouvelle vision s'en vas vers un framework intensément allégé et j'ai l'intention d'écrire quelques billets sur la question considérant le sérieux et la plus grande stabilité du projet actuel.
 
 ## Qu'est-ce que Project K
 
@@ -29,21 +29,26 @@ Project K arrive donc avec son lot de nouveautés :
 
 - Tout le stack ASP.Net est maintenant open sourcé sur [github](https://github.com/aspnet)
 - `KVM` (pour `K Version Manager`, un gestionaire de version de .net framework)
+- `KPM` (pour `K Package Manager`, essentiellement l'équivalent de publish dans Visual Studio)
+- `K` (essentiellement un lanceur d'application, un peu comme `Thor` ou `Rake` dans l'univers `Ruby`)
 - Asp.Net MVC 6
 - Nouveau système de projet (fini les .csproj, apparament une nouvelle extension vois le jour : .kproj)
 - Fin du `Global.asax` et début du `Startup.cs` en tant que citoyen de première zone
 - Injection des dépendances en tant que citoyen de première zone (il était temps!)
+- Complète modularité du stack MVC (il est facilement possible par exemple de remplacer le fameux Yellow Screen of Death)
+- Fusion des frameworks MVC, WebAPI et WebPages (pages Razor)
 - Intégration native de `Roslyn` pour effectuer une compilation à la volée
 - Unification des framework `MVC`, `WebAPI` et `WebPages` (Razor)
 - Intégration de mono en tant que citoyen de première zone (ça c'est impressionant)
-- Et plus intéressant, plus requis d'utiliser Visual Studio pour le développement (le fichier project.json semble gérer la compilation et les dépendances)
+- De plus, point intéressant intéressant il n'est plus requis d'utiliser Visual Studio pour le développement (le fichier project.json semble gérer la compilation et les dépendances)
 
-À noter que pour l'instant Project K n'offre aucun support pour visual studio, il est possible de programmer une application avec VS mais ceci se limiteras à l'écriture du code et intellisence puisqu'aucun build provider n'existe pour les versions de VS publiées. On peut s'attendre une mise-à-jour de Microsoft sur ce sujet éventuellement, aucune date pour le moment du moins.
+Depuis quelques temps `Project K` est supporté officiellement par Visual Studio via `Visual Studio 2014 CTP` (Community Technology Preview) dont la 3e version est sortie tout récemment le 18 août).
 
 ## Plus d'informations
 
 - MVC Les nouveautés
 - KVM et son utilisation
+- KPM pour le publish et son implication
 - Retour sur Owin et son utilisation
 - Startup.cs le remplacement du Global.asax
 - Injection de dépendances

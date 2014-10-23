@@ -7,7 +7,7 @@ title: Retour sur OWIN
 ---
 
 Retour sur OWIN
-===============
+---------------
 
 Pour ceux qui n'ont pas encore eu l'occasion de suivre l'évolution du projet, [OWIN] (Open Web Interface for .NET) est un middleware (essentiellement, se situe entre le serveur web ([IIS], [Kestrel], [nginx], [apache] et autres) et votre application. Son role est donc d'exposer de façon standard les requêtes et réponses.
 

@@ -3,6 +3,7 @@ published: true
 layout: post
 date: 2014-10-23
 categories: "aspnet-vnext"
+title: Retour sur OWIN
 ---
 
 Retour sur OWIN

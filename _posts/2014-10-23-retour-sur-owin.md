@@ -1,5 +1,8 @@
 ---
-published: false
+published: true
+layout: post
+date: {}
+categories: "aspnet-vnext"
 ---
 
 Retour sur OWIN

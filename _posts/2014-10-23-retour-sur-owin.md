@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-date: {}
+date: 2014-10-23
 categories: "aspnet-vnext"
 ---
 

@@ -1,5 +1,8 @@
 ---
-published: false
+layout: post
+title:  "Docker pour les nuls!"
+date:   2015-06-09
+categories: devops
 ---
 
 ## Docker pour les nuls!

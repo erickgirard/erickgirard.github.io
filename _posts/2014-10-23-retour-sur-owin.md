@@ -1,9 +1,9 @@
 ---
-published: true
-layout: post
-date: 2014-10-23
-categories: "aspnet-vnext"
 title: Retour sur OWIN
+date: 2014-10-23 00:00:00 Z
+categories:
+- aspnet-vnext
+layout: post
 ---
 
 Retour sur OWIN

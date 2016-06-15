@@ -1,8 +1,9 @@
 ---
+title: Docker pour les nuls!
+date: 2015-06-09 00:00:00 Z
+categories:
+- devops
 layout: post
-title:  "Docker pour les nuls!"
-date:   2015-06-09
-categories: devops
 ---
 
 ## Docker pour les nuls!

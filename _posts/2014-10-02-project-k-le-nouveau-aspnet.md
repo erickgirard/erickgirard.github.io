@@ -1,8 +1,9 @@
 ---
+title: Project K le nouveau AspNet
+date: 2014-10-02 00:00:00 Z
+categories:
+- aspnet-vnext
 layout: post
-title:  "Project K le nouveau AspNet"
-date:   2014-10-02
-categories: aspnet-vnext
 ---
 
 ## Project K le nouveau AspNet

@@ -1,6 +1,6 @@
 ---
+title: "À Propos!"
 layout: default
-title: À Propos!
 ---
 
 bio bien intéressante

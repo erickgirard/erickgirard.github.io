@@ -1,8 +1,9 @@
 ---
+title: Outlook et alias dynamiques
+date: 2013-05-13 00:00:00 Z
+categories:
+- fourre-tout
 layout: post
-title:  "Outlook et alias dynamiques"
-date:   2013-05-13
-categories: fourre-tout
 ---
 
 Petite trouvaille sympathique de la journée: Gmail et Outlook offrent tous les deux la possibilité d’avoir des alias dynamiques.

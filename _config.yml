@@ -16,12 +16,9 @@ github_repo_url: https://github.com/erickgirard/erickgirard.github.io/
 twitter_user: erickgirard
 linkedin_user: erickgirard
 google_analytics_tracking_id: UA-10726698-3
-markdown: rdiscount
+highlighter: rouge
 pygments: true
 permalink: "/archive/:year/:month/:day/:title/"
-rdiscount:
-  extensions:
-  - smart
 paginate: 5
 paginate_path: page/:num
 category_dir: categories

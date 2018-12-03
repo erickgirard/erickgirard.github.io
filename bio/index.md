@@ -1,5 +1,5 @@
 ---
-title: "À Propos!"
+title: À Propos!
 layout: default
 ---
 
